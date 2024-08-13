@@ -1,0 +1,136 @@
+
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #333;
+	}
+	header {
+		color: white;
+		padding: 10px 0;
+		text-align: center;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+		background-color: white;
+	}
+	header img {
+		max-width: 500px; 
+		height: auto;
+		vertical-align: middle;
+	}
+	.navi {
+		background-color: #56a84c;
+		color: white;
+		padding: 10px 0;
+		text-align: center;
+		position: fixed;
+		width: 100%;
+		top: 100px;
+		z-index: 999;
+	}
+	nav a {
+		color: white;
+		margin: 10px 15px;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	.content {
+		padding: 100px 20px 20px 20px;
+		margin-top: 40px;
+		text-align: justify;
+	}
+	.section {
+		margin-bottom: 40px;
+	}
+	.section h2 {
+		color: #34843c;
+	}
+	.board img {
+		max-width: 100%; 
+		height: auto;
+		display: flex;
+	}
+	.board-member {
+		text-align: center;
+	}
+	.board-member img {
+		border-radius: 50%;
+		max-width: 250px;
+		height: auto;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding: 20px 20px 20px 20px;
+	}
+	.board-member h3 {
+		margin: 0;
+		margin-bottom: 0px;
+	}
+	footer {
+		background-color: #4ca447;
+		color: white;
+		text-align: center;
+		padding: 10px 0;
+	}
+	.hero {
+		background-color: #73c453;
+		color: white;
+		padding: 10px 10px;
+		text-align: center;
+		margin-top: 130px;
+	}
+	.hero h1 {
+		margin: 0;
+		font-size: 2.5em;
+	}
+	.hero p {
+		font-size: 1.2em;
+	}
+	.hero .cta {
+		background-color: #56a84c;
+		color: white;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 5px;
+		display: inline-block;
+		margin-top: 1px;
+	}
+	.cta:hover {
+		text-decoration: underline;
+	}
+	.Subdivision img {
+		max-width: 100%; 
+		height: auto;
+		display: flex;
+	}
+	.issuances ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	.issuances li {
+		margin: 10px 0;
+	}
+	.issuances a {
+		color: #34843c;
+		text-decoration: none;
+	}
+	.issuances a:hover {
+		text-decoration: underline;
+	}
+	.resources ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	.resources li {
+		margin: 10px 0;
+	}
+	.resources a {
+		color: #34843c;
+		text-decoration: none;
+	}
+	.resources a:hover {
+		text-decoration: underline;
+	}
